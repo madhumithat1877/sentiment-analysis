@@ -1,0 +1,8 @@
+Though Tamil language is the oldest language in the world, it lacks behind in the field of technological advancement, information sharing and understanding.
+In order to preserve endangered indigenous heritage and culture of Tamil language, we particularly provide our contribution on Sentimental Analysis in Tamil language.
+There is scarcity of large, diverse, and labeled datasets specifically annotated for sentiment analysis in Tamil. The absence of such datasets hinders the training and evaluation of sentiment analysis models for Tamil compared to most other languages.
+This project aims to address this problem to develop an effective sentiment analysis model for the unique characteristics of the Tamil language.
+Dataset collection - The dataset consists of tamil movie reviews which are collected from various sources like social media platforms,twitter,youtube etc.
+Pre-processing of collected data -This process involves dealing with various issues such as missing values, duplicate values,and outliers.These include the removal of stopwords, special characters, and punctuation using libraries such as nltk, Indic NLP which supports Tamil language.
+Feature extraction and Data transformation - In this process word has to be transformed into a vector before they can start learning. A word embedding can be used to extract differences and similarities between words. A rating class was created to classify the data into either positive or negative categories and label them to show the polarity of the sentence.
+Model Construction - In this project, deep learning models namely CNN-LSTM, CNN-BiLSTM and CNN-BiGRU will be built to classify the polarity of the Tamil text.
